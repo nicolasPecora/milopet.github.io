@@ -1,0 +1,293 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+input,
+textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+
+    text-align: center;
+    color: #cd2323;
+    font-family: 'Poppins';
+    margin-bottom: 30px;
+}
+
+nav {
+    background-color: #cd2323;
+}
+
+li {
+    padding: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    
+    opacity: 1;
+    
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff00b3 !important;
+    
+}
+
+.navbar .form-control {
+    width: 150px;
+    }
+
+#carouselExampleCaptions {
+    height: 50vh;
+    
+}
+
+.carousel-inner {
+    height: 50vh;
+    }
+
+.carousel-item img {
+    height: 50vh;
+    width: 50vh;
+    object-fit:contain;
+    
+}
+
+.carousel-caption h5 {
+    color: black;
+    font-size: 1.5rem;
+    }
+
+.carousel-caption p {
+    color: black;
+    font-size: 1rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #cd2323;
+    border-radius: 20%;
+
+}
+
+
+.carousel-caption-content {
+    background-color: #cd2323;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #fff;
+    opacity: 0.9;
+    width: 20%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.carousel-caption-content h5,
+.carousel-caption-content p {
+    color: #fff;
+
+}
+
+.carousel-caption {
+    bottom: 10%;
+    text-align: center;
+}
+
+
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 1 calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+}
+
+
+.categorias-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.categoria-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    border: 1px solid rgba(190, 190, 190, 0.521);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    flex: 1;
+    max-width: 250px;
+    transition: background-color 0.3s;
+}
+
+.categoria-card:hover {
+    background-color: #faf2f5;
+}
+
+.precio {
+    font-size: 1.6em;
+    color: #cd2323;
+    margin: 10px 0;
+}
+
+.agregar-carrito {
+    width: 50%;
+}
+
+
+
+.opciones .opciones-card {
+    text-align: center;
+    padding: 10px;
+}
+
+.opciones .avatar {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+.contacto {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 29%;
+    height: 0%;
+    overflow: hidden;
+    max-width: 20%;
+    background-color: #000; /* Fondo opcional mientras carga el video */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1e2014;
+}
+
+
+.form-container {
+    flex: 1;
+}
+
+video {
+    height: 0.9em;
+    width: 0.9em;
+
+}
+
+.btn-primary {
+    background-color: #cd2323;
+    border: 1px solid #8c1616;
+    color: white; 
+}
+
+.btn-primary:hover {
+    background-color: #cd2323;  
+    border-color: #8c1616; 
+    color: white;  
+}
+.btn-primary:active {
+    background-color: white !important;
+    border-color: #cd2323 !important; 
+    color: #8c1616 !important; 
+}
+
+/*footer*/
+
+.footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: #cd2323;
+    /* Violeta */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons a {
+    color: white;
+    margin-left: 15px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f89d3e;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .card {
+        flex: 0 1 calc(50% - 1rem);
+    }
+    .categoria-card {
+        font-size: 0.9em; 
+        padding: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        flex: 0 1 100%;
+    }
+    .categoria-card {
+        font-size: 0.8em; 
+        padding: 6px;
+    }
+}

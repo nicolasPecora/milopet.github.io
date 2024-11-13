@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a Milo PretShop donde ofrecemos productos y servicios de alta calidad.">
+    <meta name="keywords" content="productos, servicios, calidad, empresa, pet, alimento balandeado">
+    <meta name="author" content="Nicolas Pecora">
+    <meta name="robots" content="index, follow">
+    <title>Milo Petshop, sólo a un click de distancia </title>
+    <link rel="icon" href="img/logo.png" type="image/png+xml">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-..." crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-..."
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #cd2323;">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" width="60" height="60" alt="Logo Peditutupper"> Milo PetShop
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#productos">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#opciones">Promociones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="form.html">Contacto</a></li>
+                    </ul>
+                    <form class="d-flex ms-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!--Carrousel utilizando boostrap-->
+
+        <section class="hero">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/carrousel-01.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption-content">
+                                <h5>Promociones</h5>
+                                <p>No importa a donde estes, te lo acercamos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carrousel-02.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption-content">
+                                <h5>Toda la gama VitalCan</h5>
+                                <p>Uno alimento para cada tipo de mascota</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <section id="productos" class="productos container my-5">
+        <h1>Milo PetShop, todo para tu mascota.</h1>
+
+        <h3>Buscá por categoría:</h3>
+        <div class="categorias-container mb-4">
+            <div class="categoria-card">Alimentos</div>
+            <div class="categoria-card">Estetica</div>
+            <div class="categoria-card">Accesorios</div>
+            <div class="categoria-card">Servicios</div>
+        </div>
+        <h3>Ofertas:</h3>
+
+        <div class="productos-container d-flex flex-wrap justify-content-between">
+            <div class="card">
+                <img src="img/oferta-1.jpg" class="card-img-top" alt="Producto 1">
+                <div class="card-body">
+                    <h5 class="card-title">OLD PRINCE CORDERO MED & GRD X 15+3 KG BONUS</h5>
+                    <p class="card-text">Ellos son parte de la familia y nos brindan su compañía 
+                        y su cariño. Para que tu fiel amigo se mantenga sano y fuerte, una alimentación 
+                        balanceada es esencial. Old Prince le brinda a tu perro todos los nutrientes que 
+                        necesita para que pueda correr, saltar y jugar todo el día.</p>
+                        <p class="precio">$ 49.999</p> 
+                        <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/oferta-2.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">EUKANUBA ADULTO SMALL 3KG + 600G BONUS</h5>
+                    <p class="card-text">Recomendado para perros adultos mayores a 12 meses de edad. Alimento
+                        balanceado completo para perros adultos de raza pequeña como Caniche, Yorkshire Terrier, 
+                        Chihuahua, Daschund, Maltes y otras razas o perros mestizos que pesan menos de 10 kg.</p>
+                    <p class="precio">$ 14.355</p> 
+                    <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/oferta-3.jpg" class="card-img-top" alt="Producto 3">
+                <div class="card-body">
+                    <h5 class="card-title">CAT CHOW ADULTO PESCADO 15+3 KG BONUS</h5>
+                    <p class="card-text">Una buena nutrición es fundamental para proteger 
+                        la salud de los gatos. Es por eso que desarrollamos PURINA® CAT CHOW® CON DEFENSE PLUS®, 
+                        elaborado con una selección de ingredientes naturales y mejorado, con la inclusión de un prebiótico natural.</p>
+                        <p class="precio">$ 55.650</p> 
+                        <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/oferta-4.jpg" class="card-img-top" alt="Producto 4">
+                <div class="card-body">
+                    <h5 class="card-title">DOG SELECTION CRIADORES ADULTO 21+3 KG BONUS</h5>
+                    <p class="card-text">Las proteínas de alta calidad utilizadas en conjunto con vitaminas, minerales y ácidos grasos 
+                        ricos en Omega 3 y Omega 6 favorecen el mantenimiento de una piel sana y un pelo fuerte y brillante.
+
+                        21% DE PROTEÍNAS </p>
+                        <p class="precio">$ 29.600</p> 
+                        <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/oferta-5.jpg" class="card-img-top" alt="Producto 5">
+                <div class="card-body">
+                    <h5 class="card-title">GATI PESCADO Y SALMON 15+3 KG BONUS</h5>
+                    <p class="card-text">El nuevo Purina Gati Recetas Caseras es un sabroso alimento completo y balanceado, contiene 
+                        nutrientes de la carne, el pescado y el pollo, mezclados con cereales y vegetales, que lo hacen una novedosa 
+                        combinación.</p>
+                        <p class="precio">$ 33.455</p> 
+                        <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/oferta-6.jpg" class="card-img-top" alt="Producto 6">
+                <div class="card-body">
+                    <h5 class="card-title">TOP NUTRITION CACHORRO GRANDE 15+3 KG BONUS</h5>
+                    <p class="card-text">Los múltiples atributos nutricionales de TOP NUTRITION cumplen su acción benéfica sobre la salud 
+                        de las mascotas a distintos niveles del organismo de estos animales, interactuando de manera equilibrada.</p>
+                        <p class="precio">$ 48.235</p>
+                        <button class="btn btn-primary agregar-carrito">Agregar al carrito</button> 
+                </div>
+            </div>      
+            <div class="categorias-container mb-0  mx-auto">
+                <div class="categoria-card text-center" style="width: 200px;">Ver Más ofertas</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opciones de pago y pedidos -->
+    <section id="opciones" class="opciones container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="opciones-card">
+                    <img src="img/f1.jpg" alt="Envio" class="avatar">
+                    <h5>ENVIOS SIN CARGO</h5>
+                    <p class="opciones">En toda CABA y alrededores</p>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="opciones-card">
+                    <img src="img/f2.jpg" alt="Descuento" class="avatar">
+                    <h5>Descuento Extra</h5>
+                    <p class="opciones">Pagando tus compras en efectivo</p>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="opciones-card">
+                    <img src="img/f3.jpg" alt="Tarjeta" class="avatar">
+                    <h5>Paga con Tarjeta</h5>
+                    <p class="opciones">También podes pagar en cuotas</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <span>Talento Tech - JS - C24225</span>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/milopetshop" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/milopetshop" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@milopetshop" target="_blank"><i class="fab fa-tiktok"></i></a> </div>
+                <span> <a class="nav-link" href="mailto:nicolaspecora@gmail.com">Diseñado por Nicolás Pécora</a></span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
