@@ -1,0 +1,47 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Alimento para Perro",
+        "description": "Alimento premium para perros adultos",
+        "price": 25.99,
+        "thumbnail": "https://acdn.mitiendanube.com/stores/884/444/products/7613287119490_11-d68df6b8cf8fb0380e16031358269110-320-0.webp"
+      },
+      {
+        "id": 2,
+        "title": "Juguete para Gato",
+        "description": "Rascador premium gatos",
+        "price": 10.99,
+        "thumbnail": "https://acdn.mitiendanube.com/stores/884/444/products/portada11-28575ee86a8689df6a16370755295695-320-0.webp"
+      },
+      {
+        "id": 3,
+        "title": "Collar para Perro",
+        "description": "Hueso para perros de tamaño medio",
+        "price": 15.50,
+        "thumbnail": "https://acdn.mitiendanube.com/stores/884/444/products/kong-goodie-bone-extreme1-e6e9ddb5de5033c60515906436523729-320-0.webp"
+      },
+      {
+        "id": 4,
+        "title": "Alimento para Gato",
+        "description": "Alimento nutritivo para gatos",
+        "price": 18.99,
+        "thumbnail": "https://acdn.mitiendanube.com/stores/884/444/products/gato-urinaty-bonus-eb02cabf4c2f6253a217172762088281-320-0.webp"
+      },
+      {
+        "id": 5,
+        "title": "Alimento para Perro",
+        "description": "Alimento perros de tamaño medio",
+        "price": 25.50,
+        "thumbnail": "https://acdn.mitiendanube.com/stores/884/444/products/render-op-equilibrium-adultos-myg-bonus-11-831015ac5b4a95a39a16896141254340-320-0.webp"
+      },
+      {
+        "id": 6,
+        "title": "Alimento para Gato",
+        "description": "Alimento nutritivo para gatos",
+        "price": 38.99,
+        "thumbnail": "https://acdn.mitiendanube.com/stores/884/444/products/7613034602084-bonus-11-d140aa1b9790de27db16031359581792-320-0.webp"
+      }
+    ]
+  }
+  

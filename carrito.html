@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carrito de compras Milo PetShop">
+    <meta name="keywords" content="carrito, compras, Milo PetShop, productos, tienda online">
+    <meta name="author" content="Nicolas Pecora">
+    <title>Carrito de Compras - Milo PetShop</title>
+    <link rel="icon" href="img/logo.png" type="image/png+xml">
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Mi archivo JS -->
+    <script src="carrito.js" defer></script>
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #cd2323;">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" width="60" height="60" alt="Logo Milo PetShop"> Milo PetShop
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#productos">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#opciones">Promociones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="form.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
+                    </ul>
+                    <form class="d-flex ms-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Carrito -->
+    <div class="container my-5">
+        <h1>Tu Carrito</h1>
+        
+        <!-- Mensaje si el carrito está vacío -->
+        <div id="carrito-vacio"></div>
+        
+        <!-- Tabla para mostrar los productos en el carrito -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Producto</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Subtotal</th>
+                </tr>
+            </thead>
+            <tbody id="carrito-items">
+                <!-- Los productos se insertarán aquí dinámicamente con JavaScript -->
+            </tbody>
+        </table>
+
+        <!-- Botones para limpiar el carrito o finalizar la compra -->
+        <div class="d-flex justify-content-between">
+            <button id="limpiar-carrito" class="btn btn-danger">Limpiar Carrito</button>
+            <span><strong>Total:</strong> $<span id="total">0.00</span></span>
+            <button id="finalizar-compra" class="btn btn-success">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <span>Talento Tech - JS - C24225</span>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/milopetshop" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/milopetshop" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@milopetshop" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <span> <a class="nav-link" href="mailto:nicolaspecora@gmail.com">Diseñado por Nicolás Pécora</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
